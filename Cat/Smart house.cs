@@ -63,7 +63,7 @@ namespace Cat
                 cat.Feed(needFood);
 
                 Console.WriteLine($"Покормлена кошка: {cat.Name}\nОстаток еды в вольере: {FoodResource}");
-
+                    
             }
 
         }

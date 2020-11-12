@@ -17,13 +17,13 @@ namespace Cat
 
             c.MakeNoise();
 
-            Console.WriteLine($"Кошке по имени {c.Name} уже {c.GatAge()} лет");
+            Console.WriteLine($"Кошке по имени {c.Name} уже {c.GetAge()} лет");
 
             Cat ct = new Cat("Петр Василич", new DateTime(2003, 12, 12));
 
             ct.MakeNoise();
 
-            Console.WriteLine($"Кошке по имени {ct.Name} уже {ct.GatAge()} лет");
+            Console.WriteLine($"Кошке по имени {ct.Name} уже {ct.GetAge()} лет");
 
             CatSmartHouse catSmartH = new CatSmartHouse(1000);
 
